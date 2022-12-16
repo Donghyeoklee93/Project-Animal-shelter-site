@@ -5,14 +5,14 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Animal Shelter Dublin</title>
+  <title> Animal Shelter Dublin || Animal Shelter near you </title>
 
   <!-- bootstrap -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
 
   <!-- Stylesheet -->
-  <link rel="stylesheet" type="text/css" href="teamkstyle.css">
+  <link rel="stylesheet" type="text/css" href="css/teamkstyle.css">
 
   <!-- FontAwesome Icons -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
@@ -20,9 +20,10 @@
 </head>
 
 <body>
-
+  <!-- Menu Nav -->
   <nav class="navbar fixed-top navbar-expand-lg bg-light">
     <div class="container-fluid">
+            <!-- Logo & Home button -->
       <a class="navbar-brand" href="index.html">
         <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="navy" class="bi bi-heart-pulse-fill"
           viewBox="0 0 16 16">
@@ -33,6 +34,7 @@
         </svg>
         Animal Shelter
       </a>
+       <!-- Menu -->
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -55,9 +57,11 @@
             <a class="nav-link" href="contactus.html">Contact Us</a>
           </li>
         </ul>
+         <!-- BGM player -->
         <audio style="border:7px solid #CCE6FC; border-radius: 50px;" controls>
           <source src="audio/bgm.mp3" type="audio/mpeg">
         </audio>
+        <!-- Search bar -->
         <form class="d-flex" role="search">
           <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
           <button type="button" class="btn btn-outline-primary">Search</button>
@@ -71,7 +75,7 @@
 
 
   <br>
-
+  <!-- Image Slide -->
   <div class="second_div">
     <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
       <div class="carousel-indicators">
@@ -91,6 +95,7 @@
           <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
             aria-label="Slide 3"></button>
         </div>
+        <!-- Image Slide - image -->
         <div class="carousel-inner">
           <div class="carousel-item active">
             <img src="image/boxer.avif" class="d-block w-100" alt="...">
@@ -112,6 +117,7 @@
             </div>
           </div>
         </div>
+          <!-- Image Slide - button -->
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
           data-bs-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -123,13 +129,13 @@
           <span class="visually-hidden">Next</span>
         </button>
       </div>
-
+       <!-- Image Slide - Text -->
       <div class="second_div_right">
         <div class="timer">
           <div class="timer_text">
             <h3>Support our Nice friend <span>Matt</span></h3>
             <div class="time101">
-
+              <!-- Image Slide - Countdown -->
               <div class="time_days">
                 <p id="days">00</p>
                 <span>Days</span>
@@ -149,7 +155,7 @@
             </div>
           </div>
         </div>
-
+        <!-- Image Slide - Countdown script -->
         <script>
           var countDownDate = new Date("Dec 31, 2022 00:00:00").getTime();
           var x = setInterval(function () {
@@ -177,20 +183,24 @@
   </div>
 
 
-
+  <!-- Loop text - bottom -->
   <div class="cover">
     <p class="first-parallel"></p>
   </div>
+
+    <!-- Text box -->
   <div class="third_div">
     Our Animal Shelter is operated by donation of citizen.
     <br>
     We are 100% non-profit organizaion.
   </div>
+      <!-- Main Activity Subject -->
   <div class="fourth_head">
     Our facility's main activity
   </div>
   <br>
   <br>
+        <!-- Main Activity -->
   <div class="fourth_div">
     <div class="row row-cols-1 row-cols-md-6 g-4">
       <div class="col_main">
@@ -253,9 +263,10 @@
   <br>
   <br>
   <br>
+        <!-- Sponsor company -->
   <div class="sixth_box">
     <h2 class="sixth_subject">+180 Sponsors support Our Center</h2>
-    <div class="container text-center">
+    <div class="container9999 text-center">
       <div class="row row-cols-1 row-cols-sm-1 row-cols-md-2">
         <div class="col_main"><img src="image/1.avif" alt="1"></div>
         <div class="col_main"><img src="image/2.avif" alt="2"></div>
@@ -266,11 +277,13 @@
   </div>
   <br>
   <br>
+  <!-- Christmas art text-->
   <h3 class="seventh_head"><span>I</span>M<span>POSSIBLE</span></h3>
-  <!--
-<div class="seventh_box">-->
+  <!-- Christmas art image-->
   <img src="image/black7.avif" class="img-fluid" alt="7">
-  <!--</div>-->
+
+
+  <!-- Loop text - bottom javascript -->
   <script>
     const pTag1 = document.querySelector('.first-parallel')
 
@@ -320,6 +333,7 @@
     animate()
   </script>
 
+  <!-- Footer -->
   <div class="intro_container5">
     <div class="intro_container5_1">
       <div class="intro_container5_1_1">
@@ -360,7 +374,8 @@
       </div>
     </div>
   </div>
-
+  
+  <!-- Footer Bootstrap -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
     crossorigin="anonymous"></script>
