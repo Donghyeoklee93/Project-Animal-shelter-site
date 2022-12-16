@@ -1,15 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Merriweather+Sans&family=Sriracha&display=swap');
 
 @font-face {
-    src: url("https://www.axis-praxis.org/fonts/webfonts/MetaVariableDemo-Set.woff2")
-      format("woff2");
+    src: url("https://www.axis-praxis.org/fonts/webfonts/MetaVariableDemo-Set.woff2") format("woff2");
     font-family: "Meta";
     font-style: normal;
     font-weight: normal;
-  }
+}
 
 
-  body {
+body {
     background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
     background-size: 400% 400%;
     animation: gradient 15s ease infinite;
@@ -19,9 +18,11 @@
     0% {
         background-position: 0% 50%;
     }
+
     50% {
         background-position: 100% 50%;
     }
+
     100% {
         background-position: 0% 50%;
     }
@@ -40,29 +41,26 @@
     color: transparent;
     font-family: "Meta", sans-serif;
     text-shadow: 10px 10px 0px #07bccc,
-      15px 15px 0px #e601c0,
-      20px 20px 0px #e9019a,
-      25px 25px 0px #f40468,
-      45px 45px 10px #482896;
+        15px 15px 0px #e601c0,
+        20px 20px 0px #e9019a,
+        25px 25px 0px #f40468,
+        45px 45px 10px #482896;
     cursor: pointer;
-  }
-  
-  .news_subject:hover {
+}
+
+.news_subject:hover {
     font-variation-settings: "wght" 100, "ital" 0;
     text-shadow: none;
-  }
+}
 
 
-  .grid3 {
-    --r: 10px; /* control the radius of the circles */
+.grid3 {
+    --r: 10px;
+    /* control the radius of the circles */
     padding: calc(2*var(--r));
     filter: grayscale(.4) drop-shadow(0 0 1px #0005) drop-shadow(0 0 1px #0005);
-    background: 
-      radial-gradient(var(--r),#0000 98%,#fff) round
-        calc(-1.5*var(--r)) calc(-1.5*var(--r)) /calc(3*var(--r)) calc(3*var(--r)),
-      linear-gradient(#fff 0 0)  no-repeat
-        50%/calc(100% - 3*var(--r)) calc(100% - 3*var(--r));
-  }
+    background: white
+}
 
 
 
@@ -154,7 +152,7 @@
 
 
 
-.board_title{
+.board_title {
 
     transition: all 0.5s;
     -webkit-text-stroke: 4px #d6f4f4;
@@ -164,21 +162,21 @@
     color: transparent;
     font-family: "Meta", sans-serif;
     text-shadow: 10px 10px 0px #07bccc,
-      15px 15px 0px #e601c0,
-      20px 20px 0px #e9019a,
-      25px 25px 0px #f40468,
-      45px 45px 10px #482896;
+        15px 15px 0px #e601c0,
+        20px 20px 0px #e9019a,
+        25px 25px 0px #f40468,
+        45px 45px 10px #482896;
     cursor: pointer;
-  }
-  
- .board_title:hover {
+}
+
+.board_title:hover {
     font-variation-settings: "wght" 100, "ital" 0;
     text-shadow: none;
-  }
+}
 
 
 
-  .board_title p {
+.board_title p {
     transition: all 0.5s;
     -webkit-text-stroke: 4px black;
     font-variation-settings: "wght" 900, "ital" 1;
@@ -188,12 +186,12 @@
     font-family: "Meta", sans-serif;
     text-shadow: 10px 10px 0px black;
     cursor: pointer;
-  }
-  
-  .board_title p  {
+}
+
+.board_title p {
     font-variation-settings: "wght" 100, "ital" 0;
     text-shadow: none;
-  }
+}
 
 
 
