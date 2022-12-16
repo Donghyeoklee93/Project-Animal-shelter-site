@@ -10,12 +10,11 @@
     integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
 
 
-  <link rel="stylesheet" type="text/css" href="css/teamkstyle.css">
+  <link rel="stylesheet" type="text/css" href="teamkstyle.css">
 
   <script src="https://kit.fontawesome.com/64d58efce2.js" crossorigin="anonymous"></script>
 
-  <!-- FontAwesome Icons -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+
 
 
 </head>
@@ -25,6 +24,9 @@
 
 
 <body>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    crossorigin="anonymous"></script>
   <!--Menu-->
   <nav class="navbar fixed-top navbar-expand-lg bg-light">
     <div class="container-fluid">
@@ -84,7 +86,7 @@
       <div class="contact-info">
         <h3 class="title">Let's get in touch</h3>
         <p class="text">
-          Animal shelter
+          NCI Veterinary Clinic
         </p>
 
         <div class="info">
@@ -117,7 +119,7 @@
               <i class="fab fa-linkedin-in"></i>
             </a>
           </div><br>
-          <div class="credit">Made with <span style="color:red">❤</span> for Animal shelter</div>
+          <div class="credit">Made with <span style="color:red">❤</span> for NCI Vet Clinic</div>
         </div>
       </div>
 
@@ -128,26 +130,26 @@
         <form action="#">
           <h3 class="title">Contact us</h3>
           <div class="input-container">
-            <input type="text" aria-label="name" name="name" class="input" placeholder="Enter your username..." id="username">
+            <input type="text" name="name" class="input" placeholder="Enter your username..." id="username">
 
             <span>Username</span>
           </div>
           <div class="input-container">
-            <input type="email" aria-label="email"name="email" class="input" placeholder="Enter your email address.." id="email">
+            <input type="email" name="email" class="input" placeholder="Enter your email address.." id="email">
 
             <span>Email</span>
           </div>
           <div class="input-container">
-            <input type="tel" aria-label="phone name="phone" class="input" placeholder="Enter your phone number.." id="phone">
+            <input type="tel" name="phone" class="input" placeholder="Enter your phone number.." id="phone">
 
             <span>Phone</span>
           </div>
           <div class="input-container">
-            <input type="radio" aria-label="radio1"id="donate" name="choice" value="donate">Donate to the animal shelter<br>
-            <input type="radio" aria-label="radio2"id="adopt" name="choice" value="adopt">Adopt an animal <br>
+            <input type="radio" id="donate" name="choice" value="donate">Donate to the animal shelter<br>
+            <input type="radio" id="adopt" name="choice" value="adopt">Adopt an animal <br>
           </div>
           <div class="input-container textarea">
-            <textarea name="message" aria-label="message" class="input" placeholder="Message" id="message"></textarea>
+            <textarea name="message" class="input" placeholder="Message" id="message"></textarea>
 
             <span>Message</span>
           </div>
